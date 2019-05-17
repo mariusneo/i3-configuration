@@ -100,6 +100,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 bindsym $mod+Shift+s exec --no-startup-id /home/marius/bin/monitor 
 ```
 
+The referenced file [/home/marius/bin/monitor](monitor) is also available in this repository. 
+
+
 
 # Status bar customizations
 
@@ -156,6 +159,6 @@ also an application switcher. By default via `i3` there's no possibility that I 
 switching between the opened applications (which may be found in some obscure workspace that
 is not currently visible to the user), this is possible via `rofi`.
 
-Switch between the modes (drun/window/ssh) by using `shift` `left` or `right` keyboard shortcut.
+Switch between the modes (drun/window/ssh) by using `shift` + `left` or `right` keyboard shortcut.
 
 
