@@ -22,6 +22,26 @@ use it on other computers I use.
 that are needed to get started with i3.
 
 
+## Tiling
+
+The true power of this window manager is in my opinion the way it allows the user to tile
+the windows.
+
+The space taken by a window can be easily divided horizontally or vertically by using
+the shortcut `$mod` + `v` (vertical) / `$mod` + `h` (horizontal) and then open the new
+application of choice which will eventually take half of the horizontal/vertical space of
+the window on which the user has the focus on.
+I find this feature brilliant from a usability point of view.
+
+
+
+## Downsides
+
+Before proceeding with the installation and customizations, in case that there's somebody
+else reading this, this window manager has its little quirks and needs a few hours to get
+accustomed with (i.e. :  shutting down / logging out / volume up/down are not quite obvious)
+, but nevertheless I think it's worth trying it out.
+
 ## Installation
 
 
@@ -104,7 +124,7 @@ The referenced file [/home/marius/bin/monitor](monitor) is also available in thi
 
 
 
-# Status bar customizations
+## Status bar customizations
 
 I've used i3status for customizing the status bar displayed on the bottom of i3 window manager.
 It has a small drawback because it refreshes by default only once every 5 seconds - which is 
@@ -127,7 +147,7 @@ sudo apt-get install fonts-font-awesome
 
 
 
-# Changing between keyboard layouts
+## Changing between keyboard layouts
 
 It was rather tricky to achieve changing the keyboard layout and seeing the newly chosen locale
 on the status bar (in fact now I see it only with up to 5 seconds delay).
@@ -145,7 +165,7 @@ Files needed:
 
 
 
-# Rofi window switcher
+## Rofi window switcher
 
 i3 comes equiped with a rather basic launcher for applications (`$mod` + `d`) shortcut, reason
 why I opted to use `rofi`.
