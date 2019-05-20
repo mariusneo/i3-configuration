@@ -10,6 +10,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+
+# enable network-manager tray icon
+exec --no-startup-id "nm-applet"
+
 # set the screen resolution
 exec xrandr --output eDP-1 --mode 1920x1080
 
