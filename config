@@ -214,6 +214,10 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 bindsym $mod+Shift+s exec --no-startup-id /home/marius/bin/monitor
 
 
+# Lock screen
+bindsym $mod+Ctrl+l exec ~/bin/i3lockscreenshot
+
+
 
 # Setup keyboard layouts 
 exec_always "setxkbmap -layout us,de,ro -option 'grp:alt_shift_toggle'"

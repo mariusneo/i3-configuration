@@ -93,6 +93,35 @@ mode "Exit (L)ogout, (R)eboot, (P)oweroff" {
 }
 
 bindsym $mod+Shift+e mode "Exit (L)ogout, (R)eboot, (P)oweroff"
+
+
+### Lock screen
+
+`i3lock` tool is used for locking the screen.
+
+Since `$mod+l` is already taken by default for navigation between windows,
+I am using a slightly modified shortcut for locking the screen.
+
+```
+bindsym $mod+Ctrl+l exec ~/bin/i3lockscreenshot
+```
+
+
+
+I've used a little customization on top of `i3lock` for taking a screenshot and
+blur it. See [~/bin/i3lockscreenshot](i3lockscreenshot) for more details.
+
+
+
+```
+# for taking a screenshot
+sudo apt-get install scrot
+# for blurring an image
+sudo apt-get install imagemagick
+```
+
+
+
 ```
 
 ### Resizing windows
